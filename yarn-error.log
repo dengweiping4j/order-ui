@@ -1,0 +1,44 @@
+Arguments: 
+  C:\software\node10.15.3\node.exe C:\software\node10.15.3\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  D:\myCode\ui\order-ui\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\software\Git\cmd;C:\software\jdk1.8.0_71\bin;C:\software\jdk1.8.0_71\jre\bin;C:\software\Git\bin;C:\software\node10.15.3;C:\software\apache-maven-3.5.2\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\software\mysql-5.6.47\bin;C:\software\gradle-4.6\bin;C:\Users\WIN10\AppData\Local\Microsoft\WindowsApps;
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  10.15.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.23.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+
+npm manifest: 
+  {
+    "name": "order-ui",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "umi dev",
+      "build": "umi build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "umi": "^2.2.5",
+      "umi-plugin-react": "^1.2.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
